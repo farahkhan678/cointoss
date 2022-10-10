@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to left, #e2a139, #f9d423);
+}
+.bg-cont-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  font-family: 'Roboto';
+  padding: 20px;
+  border-radius: 20px;
+}
+.head {
+  font-size: 30px;
+  font-weight: 800;
+  color: #a35200;
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+.img {
+  height: 100px;
+  margin: 15px;
+  width: auto;
+}
+.btn {
+  background-color: #e2a139;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.game-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.score {
+  margin: 8px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 600;
+}
